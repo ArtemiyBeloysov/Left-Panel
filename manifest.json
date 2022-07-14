@@ -9,4 +9,13 @@
         "persistent": false
 
     }
+
+    {
+        …
+        "browser_action": {
+            "default_title": "Open Left Panel", // Заголовок. Его видно если навести курсор на иконку в браузере
+            "default_icon": "icon_small.png", // Путь к иконке расширения
+            "default_popup": "popup.html" // Путь к странице с попапом
+        }
+        }
 }
